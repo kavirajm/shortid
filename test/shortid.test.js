@@ -21,6 +21,7 @@ describe('testing shortid', function(done) {
         while(i--) {
             id = shortid.generate();
             expect(id.length).to.be.below(5);
+
             ids[id] = ids[id] ? ids[id]++ : 1;
             expect(ids[id]).to.equal(1);
         }
