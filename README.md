@@ -1,3 +1,7 @@
+## Modified Shortid
+This is a fork from the original, that generates 3-4 digit uniqueid.
+
+
 ## shortid  [![Build Status](http://img.shields.io/travis/dylang/shortid.svg)](https://travis-ci.org/dylang/shortid) [![shortid](http://img.shields.io/npm/dm/shortid.svg)](https://www.npmjs.org/package/shortid)
 
 > Amazingly short non-sequential url-friendly unique id generator.
